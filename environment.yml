@@ -1,0 +1,27 @@
+name: opera-change
+channels:
+ - conda-forge
+dependencies:
+ - python
+ - jupyter
+ - rasterio
+ - shapely
+ - numpy
+ - matplotlib
+ - fiona
+ - geopandas
+ - tqdm
+ - pip
+ - notebook
+ - jupyterlab
+ - pytest
+ - contextily
+ - scikit-image
+ - scikit-learn
+ - asf_search
+ - flake8
+ - flake8-blind-except
+ - flake8-builtins
+ - flake8-import-order
+ - pystac-client
+ - dem_stitcher
