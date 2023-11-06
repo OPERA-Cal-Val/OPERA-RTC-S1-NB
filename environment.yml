@@ -24,4 +24,8 @@ dependencies:
  - flake8-builtins
  - flake8-import-order
  - pystac-client
+ - astropy
  - dem_stitcher
+ - pip:
+   - git+https://github.com/ACCESS-Cloud-Based-InSAR/dem-stitcher.git@performance-improvement
+   - git+https://github.com/OPERA-Cal-Val/tile-stitcher
